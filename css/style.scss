@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Roboto;
+	font-size: 13px;
+	width: 100%;
+}
+
+$color-gr: #8bc34a;
+
+$color-br: #283238;
+
+div.header-only-pc {
+	display: block;
+}
+
+div.header-only-sp {
+	display: none;
+}
+
+div.header-only-pc {
+	background: {
+		image: url("../images/banner.png");
+		size: contain;
+		repeat: no-repeat;
+	}
+	margin: 0 -15px;
+	height: 621px;
+}
+
+div.header-only-sp {
+	background: {
+		image: url("../images/rectangle.png");
+		size: contain;
+		repeat: no-repeat;
+	}
+	height: 500px;
+	margin: 0 -15px;
+}
+
+@media screen and (max-width: 768px) {
+	div.header-only-pc {
+		display: none;
+	}
+	div.header-only-sp {
+		display: block;
+	}
+}
+
+div.header-top {
+	padding-top: 40px;
+	padding-left: 30px;
+	a {
+		font-size: 12px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+	.about-us {
+		margin-right: 55px;	
+		a {
+			color: $color-br;
+		}
+	}
+	.sign-in {
+		a {
+			border: solid 2px $color-gr;
+			border-radius: 100px;
+			padding: 9px 15px;
+			color: $color-gr;
+		}
+	}
+}
+
+div.logo {
+	img {
+		margin-top: 60px;
+	}
+}
+
+div.one-content-hd {
+	i.icon-header {
+		font-size: 48px;
+	}
+	p {
+		font-size: 36px;
+		font-weight: lighter;
+	}
+}
