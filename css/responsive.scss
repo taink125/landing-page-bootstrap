@@ -1,0 +1,57 @@
+@import "attribute.scss";
+
+@media only screen and (max-width: 768px) {
+	.header-only-pc {
+		height: 425px;
+		background: {
+			image: url("../images/rectangle.png");
+			size: cover;
+		}
+
+		.header-top {
+			padding: 29px 5.474% 0 0;
+
+			.about-us {
+				padding-right: 2.998%;
+			}
+		}
+
+		.logo {
+			img {
+				width: 144px;
+				height: 43px;
+				margin-top: 49px;
+			}
+		}
+
+		.three-icon-hd {
+			margin-top: 40px;
+
+			.one-content-hd {
+				p, i {
+					font-size: 24px;
+				}
+			}
+
+			.icon-center {
+				padding: 0 9.76% 0 11.1%;
+			}
+		}
+
+		.short-text-hd {
+
+			p {
+				font-size: 14px;
+			}
+		}
+
+		.event-start-now {
+			a {
+				font-size: 14px;
+				letter-spacing: 1.17px;
+				padding: 14px 28.3px;
+			}
+		}
+	}
+
+}
