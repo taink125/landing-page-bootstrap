@@ -16,6 +16,32 @@ body {
   overflow-x: hidden;
 }
 
+.container-fluid {
+    > div:nth-child(3) {
+      display: none;
+    };
+
+    > div:nth-child(5) {
+      display: none;
+    };
+
+    > div:nth-child(8) {
+      display: none;
+    };
+
+    > div:nth-child(10) {
+      display: none;
+    };
+
+    > div:nth-child(13) {
+      display: none;
+    };
+
+    > div:nth-child(15) {
+      display: none;
+    };
+  }
+
 .header-only-pc {
   background: {
     image: url("../images/banner.png");
@@ -71,7 +97,7 @@ body {
 }
 
 .icon-center {
-  margin: 0 13.125% 0 14.375%;
+  margin: 0 27.125% 0 28.375%;
 }
 
 .one-content-hd {
@@ -86,6 +112,7 @@ body {
 }
 
 .short-text-hd {
+  margin-top: 30px;
   p {
     font-size: 18px;
     color: $color_br;
@@ -142,7 +169,6 @@ body {
 }
 
 .content {
-  width: 100vw;
   height: 571px;
   padding: 100px 20.3125%;
   box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
@@ -157,8 +183,8 @@ body {
 
 .lists-content {
   background-image: $color-grdien;
-  height: 322px;
-  padding: 0 20.1%;
+  padding: 68.5px 20.1%;
+  margin: 0 -15px;
 }
 
 .one-content {
@@ -168,11 +194,8 @@ body {
     margin-top: 12px;
     font-size: 16px;
     letter-spacing: 1.33px;
+    margin-bottom: 0;
   }
-}
-
-.lists-content {
-  margin: 0 -15px;
 }
 
 .big-circle {
@@ -215,7 +238,7 @@ body {
     font-size: 0.677vw;
     color: $color-br;
     overflow: hidden;
-    height: 25px;
+    height: 23px;
     align-items: center;
   }
 }
@@ -242,6 +265,10 @@ body {
     i {
       font-size: 72px;
     }
+
+    p {
+      font-size: 18px;
+    }
   }
 
   .list-our-customer {
@@ -255,20 +282,28 @@ body {
 
     .one-customer {
       p {
-        font-size: 0.677vw;
-        width: 58px;
-        margin: 0 auto;
+        font-size: 13px;
         margin-top: 16px;
       }
+    }
+  }
+
+  .set-ti-more {
+    padding: 0 46.07%;
+
+    .style-timore {
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+      border: 1px solid #ffffff;
     }
   }
 }
 
 .footer {
-  height: 179px;
   background-color: #39474e;
   margin: 0 -15px;
-  padding: 0 20.3125%;
+  padding: 17px 11.3125%;
 
   > div:nth-child(1) {
     > p {
@@ -300,7 +335,7 @@ body {
 
       i {
         color: $color-gr;
-        padding: 0 19px;
+        padding-left: 19px;
         font-size: 13px;
       }
     }
