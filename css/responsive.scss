@@ -73,27 +73,31 @@
         display: none;
       };
 
-      &:nth-child(12) {
-        display: none;
-      };
-
-      &:nth-child(3) {
-        display: block;
-      };
-
       &:nth-child(5) {
         display: block;
       };
 
       &:nth-child(8) {
-        display: block;
+        display: none;
       };
 
       &:nth-child(10) {
-        display: block;
+        display: none;
       };
 
       &:nth-child(13) {
+        display: none;
+      };
+
+      &:nth-child(9) {
+        display: block;
+      };
+
+      &:nth-child(11) {
+        display: block;
+      };
+
+      &:nth-child(14) {
         display: block;
       };
     }
@@ -292,15 +296,31 @@
 
   .container-fluid {
     > div {
-      &:nth-child(10) {
+      &:nth-child(3) {
+        display: block;
+      };
+
+      &:nth-child(5) {
+        display: block;
+      };
+
+      &:nth-child(7) {
+        display: block;
+      };
+
+      &:nth-child(6) {
         display: none;
       };
 
-      &:nth-child(14) {
+      &:nth-child(11) {
         display: none;
       };
 
       &:nth-child(15) {
+        display: none;
+      };
+
+      &:nth-child(16) {
         display: block;
       };
     }
